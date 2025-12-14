@@ -1,0 +1,19 @@
+.container {
+    /* border: 1px solid black; */
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 95px;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.container ul li a{
+    color: #ED985F;
+
+}
