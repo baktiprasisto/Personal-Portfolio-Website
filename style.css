@@ -4,38 +4,84 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+P {
+  font-size: 16px;
+}
+h6 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 55px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 61px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+.wrap {
+  /* border: 5px black solid; */
+  width: 1440px;
+}
+.Home {
   /* border: 1px solid black; */
   width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 250px;
+  height: 150px;
 }
 
-.container ul {
+.Home ul {
   display: flex;
   list-style: none;
   gap: 90px;
 }
 
-.container ul li a {
+.Home ul li a {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
   text-decoration: none;
-  color: #ebf4dd;
+  color: #1b3c53;
 }
 
 .logo {
   width: 80px;
-  padding-left: 20px;
-  margin-left: 20px;
 }
 
-.perkenalan h1{
+.body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.perkenalan h1 {
   font-family: "Poppins", sans-serif;
-  
+  color: #1b3c53;
+}
+.perkenalan button {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+  color: #E3E3E3;
+  background-color: #1B3C53;
+}
+.body a {
+  width: 100px;
+  padding: 10px 20px;
 }
 .Gambar {
   width: 340px;
-  float: right;
 }
