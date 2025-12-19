@@ -113,6 +113,7 @@ body {
   border: 1px solid black;
   width: 100%;
   padding: 50px 0;
+  padding-bottom: 190px;
 }
 
 .about-title {
@@ -141,9 +142,9 @@ body {
   margin-left: 100px;
 }
 
-.about-text {
-  /* border: 1px solid black; */
-  max-width: 100%;
-  padding: 100px;
-  
+.about-info {
+  position: relative;
+  margin-left: 680px; /* geser ke kanan gambar */
+  margin-top: -260px; /* naik sejajar dengan gambar */
+  width: 500px;
 }
