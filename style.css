@@ -35,7 +35,8 @@ body {
 }
 .wrap {
   /* border: 5px black solid; */
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 .Home {
   /* border: 1px solid black; */
@@ -111,13 +112,13 @@ body {
 }
 
 .about {
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
   width: 100%;
   padding: 50px 0;
 }
 
 .title {
-  /* border: 1px solid black; */
+  /* border: 1px solid blue; */
   color: #1b3c53;
   padding: 50px;
   text-align: center;
@@ -130,29 +131,34 @@ body {
 .about-content {
   /* border: 1px solid black; */
   display: flex;
-  max-width: 700px;
+  width: 100%;
   justify-content: center;
   gap: 50px;
   align-items: center;
 }
 
 .about-content img {
+  /* border: 1px solid green; */
   width: 320px;
   border-radius: 16px;
-  margin-top: -40px;
-  margin-left: 100px;
 }
 
 .about-info {
+  /* border: 1px solid purple; */
   font-family: "Poppins", sans-serif;
-  position: relative;
-  margin-left: 680px; /* geser ke kanan gambar */
-  margin-top: -300px; /* naik sejajar dengan gambar */
   width: 500px;
 }
 
 .about-skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 40px;
+}
+
+.about-skill img {
+  border: 1px solid black;
+  width: 110px;
 }
 
 .project {
@@ -293,4 +299,15 @@ body {
   font-family: "Poppins", sans-serif;
   position: relative;
   font-size: 20px;
+}
+
+@media (max-width: 1440px) {
+  .wrap {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-content {
+  }
 }
