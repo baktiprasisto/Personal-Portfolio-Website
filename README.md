@@ -19,6 +19,7 @@ Informatics Student
 
 GitHub: https://github.com/baktiprasisto  
 LinkedIn: https://www.linkedin.com/in/anugerah-bakti-04422122b/
+LinkedIn: https://www.linkedin.com/in/anugerah-bakti-04422122b/
 Facebook: https://www.facebook.com/profile.php?id=100006615318141
 Twitter: https://x.com/zonehell1
 Instagram: https://www.instagram.com/bakti_011/
