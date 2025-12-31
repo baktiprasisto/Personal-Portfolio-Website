@@ -60,6 +60,16 @@ body {
   color: #1b3c53;
 }
 
+.burger {
+  border: 1px solid black;
+  width: 35px;
+  display: none;
+}
+
+.burger img {
+  width: 100%;
+}
+
 .logo {
   width: 80px;
 }
@@ -307,7 +317,11 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
-  .about-content {
+@media (max-width: 700px) {
+  .home ul li a {
+    display: none;
+  }
+  .burger {
+    display: block;
   }
 }
